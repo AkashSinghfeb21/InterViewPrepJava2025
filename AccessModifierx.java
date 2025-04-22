@@ -9,6 +9,9 @@
 //and public final abstract default keywords used by outer classes
 //and private protected used by inner classes
 public class AccessModifierx {
+    final public int aj(){
+        return -1;
+    }
     public static void main(String[]args){
      Person p = new Person();
      p.hello();

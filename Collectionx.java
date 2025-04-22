@@ -9,6 +9,7 @@ import java.util.TreeMap;
 import java.util.List;
 import java.util.Set;
 import java.util.Map;
+import java.util.Hashtable;
 
 public class Collectionx {
     public static void main(String[]args){
@@ -35,6 +36,7 @@ public class Collectionx {
     //  m.put(1, "Akash");
      
     //  System.out.println(m); stores values in key & value pair;
+    Map <Integer,String>m = new Hashtable<>();
     
     }
 }
