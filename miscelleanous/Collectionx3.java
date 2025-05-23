@@ -5,19 +5,19 @@ import java.util.Comparator;
 
 
 class employee implements Comparable<employee>{
-     public int id;
+     public Integer id;
      public String name;
 
-     public employee(int id,String name){
+     public employee(Integer id,String name){
         this.id = id;
         this.name = name;
      }
 
-     public int getId(){
+     public Integer getId(){
         return id;
      }
 
-     public int compareTo(employee that){
+     public Integer compareTo(employee that){
       return this.id<that.id?1:-1;
      }
 
@@ -28,28 +28,28 @@ class employee implements Comparable<employee>{
 public class Collectionx3 {
     public static void main(String[]args){
        //descending
-    //    Comparator <Integer> com = new Comparator<Integer>(){
-    //        public int compare(Integer i,Integer j){
+    //    Comparator <Integereger> com = new Comparator<Integereger>(){
+    //        public Integer compare(Integereger i,Integereger j){
     //              return (i<j)?1:(i>j)?-1:0;
     //        }
     //    };
 
        //last digit compare sort in ascending in two digits no
-    //    Comparator <Integer> com = new Comparator<Integer>(){
-    //     public int compare(Integer i,Integer j){
+    //    Comparator <Integereger> com = new Comparator<Integereger>(){
+    //     public Integer compare(Integereger i,Integereger j){
     //            return (i%10>j%10)?1:-1;  
     //     }
     //    };
     
 
-    //    ArrayList<Integer> list = new ArrayList<>();
+    //    ArrayList<Integereger> list = new ArrayList<>();
 
-    //    for(Integer i=11;i<21;i++){
+    //    for(Integereger i=11;i<21;i++){
     //     list.add(i);
     //    }
 
        Comparator<employee> com = new Comparator<employee>() {
-          public int compare(employee i,employee j){
+          public Integer compare(employee i,employee j){
            return i.id<j.id?1:-1;
           }
        };
@@ -59,13 +59,13 @@ public class Collectionx3 {
        list.add(new employee(1,"Akash Singh"));
        list.add(new employee(2,"Aditya Singh"));
 
-       System.out.println(list);
+       System.out.prIntegerln(list);
 
     //    Collections.sort(list,com);
 
        Collections.sort(list);
 
-       System.out.println(list);
+       System.out.prIntegerln(list);
     }
 }
 

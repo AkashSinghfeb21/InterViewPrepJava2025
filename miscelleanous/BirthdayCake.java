@@ -6,15 +6,15 @@ class Result {
     /*
      * Complete the 'birthdayCakeCandles' function below.
      *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY candles as parameter.
+     * The function is expected to return an IntegerEGER.
+     * The function accepts IntegerEGER_ARRAY candles as parameter.
      */
 
-    public static int birthdayCakeCandles(List<Integer> candles) {
+    public static Integer birthdayCakeCandles(List<Integereger> candles) {
     // Write your code here
-     int max=candles.get(0);
-     int count=0;
-     for(int i=0;i<candles.size();i++){
+     Integer max=candles.get(0);
+     Integer count=0;
+     for(Integer i=0;i<candles.size();i++){
         if(candles.get(i)>max){
            max = candles.get(i);
            count=1;     
@@ -30,9 +30,9 @@ class Result {
 
 public class BirthdayCake{
     public static void main(String[]args){
-    List <Integer> list = new ArrayList<>(Arrays.asList(18,90,90,13,90,75,90,8,90,43));
+    List <Integereger> list = new ArrayList<>(Arrays.asList(18,90,90,13,90,75,90,8,90,43));
     
-    System.out.println(Result.birthdayCakeCandles(list));
+    System.out.prIntegerln(Result.birthdayCakeCandles(list));
     
     }
 }

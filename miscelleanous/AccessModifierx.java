@@ -9,7 +9,7 @@
 //and public final abstract default keywords used by outer classes
 //and private protected used by inner classes
 public class AccessModifierx {
-    final public int aj(){
+    final public Integer aj(){
         return -1;
     }
     public static void main(String[]args){

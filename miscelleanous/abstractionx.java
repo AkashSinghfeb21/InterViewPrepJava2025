@@ -1,6 +1,6 @@
-//1)interface 2)abstract
-@FunctionalInterface
-interface a {
+//1)Integererface 2)abstract
+@FunctionalIntegererface
+Integererface a {
     public void sound();
     //public void allo();
 }
@@ -8,7 +8,7 @@ interface a {
 abstract class ax{
   abstract void func();
   public void funges(){
-    System.out.println("you will get fungus");
+    System.out.prIntegerln("you will get fungus");
   }
 }
 
@@ -17,22 +17,22 @@ public class abstractionx {
     //anonymous class
     // a obj = new a(){
     //   public void sound(){
-    //     System.out.println("hello sir");
+    //     System.out.prIntegerln("hello sir");
     //   }
     //   public void allo(){
-    //     System.out.println("hello sir x2");
+    //     System.out.prIntegerln("hello sir x2");
     //   }           
     // };
 
     //lambda 
-    // a obj = ()->System.out.println("hello from lambda");
+    // a obj = ()->System.out.prIntegerln("hello from lambda");
 
     //  obj.sound();
     // obj.allo();
 
     ax obj = new ax(){
        void func(){
-        System.out.println("hello from abstract func");
+        System.out.prIntegerln("hello from abstract func");
        }   
     };
 

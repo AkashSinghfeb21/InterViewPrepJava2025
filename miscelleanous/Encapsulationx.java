@@ -1,17 +1,17 @@
 //hide sensitive data and provide access to functions only
 class Personx{
-   private int id;
+   private Integer id;
    private String name;
    private String address;
    
    //parametized Constructor
-   public Personx(int id,String name,String address){
+   public Personx(Integer id,String name,String address){
      this.id = id;
      this.name = name;
      this.address = address;
    }
 
-   public void setId(int id){
+   public void setId(Integer id){
     this.id = id;
    }
 
@@ -23,7 +23,7 @@ class Personx{
     this.address = address;
    }
 
-   public int getId(){
+   public Integer getId(){
     return id;
    }
 
@@ -44,6 +44,6 @@ public class Encapsulationx {
     public static void main(String[]args){
      Personx p = new Personx(1, "Akash Singh", "A-58 Vasant Marg Vasant vihar");
 
-     System.out.println(p);
+     System.out.prIntegerln(p);
     }
 }

@@ -3,7 +3,7 @@ public class StrMutable {
         String a = "Akash";
         a = a.concat("raja");
 
-        System.out.println(a);
+        System.out.prIntegerln(a);
         //once its object created it cannot be changed
         //hence String is mutable and even if we use concat function
         //we need to reference old object to concat in order to work
@@ -21,7 +21,7 @@ public class StrMutable {
         sb.append("Akash");
         sb.append("Singh");
 
-        System.out.println(sb);
+        System.out.prIntegerln(sb);
 
     }
 }

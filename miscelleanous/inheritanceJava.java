@@ -1,7 +1,7 @@
 //Single level inheritance
 /*class animal{
      public void sound(){
-        System.out.println("makes Sound");
+        System.out.prIntegerln("makes Sound");
      }
 }
 
@@ -12,7 +12,7 @@ class dog extends animal{
 //multiLevel inheritance
 /*class animal{
     public void sound(){
-        System.out.println("makes sound");
+        System.out.prIntegerln("makes sound");
     }
 }
 
@@ -27,7 +27,7 @@ class cat extends mammal{
 //hierarchical 
 class parent{
     public void sound(){
-        System.out.println("makes sound");
+        System.out.prIntegerln("makes sound");
     }
 }
 

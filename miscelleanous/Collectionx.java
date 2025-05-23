@@ -13,30 +13,30 @@ import java.util.Hashtable;
 
 public class Collectionx {
     public static void main(String[]args){
-     //List<Integer> l = new ArrayList<>();store duplicates
+     //List<Integereger> l = new ArrayList<>();store duplicates
     //     l.add(1);
-    //  for(int i=1;i<10;i++){
+    //  for(Integer i=1;i<10;i++){
     //     l.add(i);
     //  }
-    //  System.out.println(l);
+    //  System.out.prIntegerln(l);
     //  l.remove(0);
     //  l.size();
 
-    // Set <Integer> s = new HashSet<>(); dont store duplicates
+    // Set <Integereger> s = new HashSet<>(); dont store duplicates
 
     // s.add(1);
 
-    // for(int i=1;i<10;i++){
+    // for(Integer i=1;i<10;i++){
     //     s.add(i);
     // }
 
-    // System.out.println(s); 
-    //  Map<Integer,String> m = new HashMap<>();
+    // System.out.prIntegerln(s); 
+    //  Map<Integereger,String> m = new HashMap<>();
      
     //  m.put(1, "Akash");
      
-    //  System.out.println(m); stores values in key & value pair;
-    Map <Integer,String>m = new Hashtable<>();
+    //  System.out.prIntegerln(m); stores values in key & value pair;
+    Map <Integereger,String>m = new Hashtable<>();
     
     }
 }

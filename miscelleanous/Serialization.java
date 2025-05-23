@@ -1,17 +1,17 @@
 import java.io.*;
 
 class person implements Serializable{
-    private int id;
+    private Integer id;
     private String name;
     private String address;
 
-    public person(int id,String name,String address){
+    public person(Integer id,String name,String address){
         this.id = id;
         this.name = name;
         this.address = address;
     }
 
-    public void setId(int id){
+    public void setId(Integer id){
         this.id = id;
     }
     
@@ -23,7 +23,7 @@ class person implements Serializable{
         this.address = address;
     }
 
-    public int getId(){
+    public Integer getId(){
         return id;
     }
 
@@ -47,11 +47,11 @@ public class Serialization{
 
         ObjectOutputStream o = new ObjectOutputStream(new FileOutputStream("person.txt"));
         o.writeObject(p);
-        System.out.println("Person object Serialized to person.txt");
+        System.out.prIntegerln("Person object Serialized to person.txt");
 
         ObjectInputStream oi = new ObjectInputStream(new FileInputStream("person.txt"));
         person po = (person) oi.readObject();
-        System.out.println("Deserialized:"+po);
-        // System.out.println(p);
+        System.out.prIntegerln("Deserialized:"+po);
+        // System.out.prIntegerln(p);
     }
 }

@@ -7,7 +7,7 @@ public class TimeConvert {
 
         String arr[] = n.substring(0,8).split(":");
 
-        int hour = Integer.parseInt(arr[0]); 
+        Integer hour = Integereger.parseInteger(arr[0]); 
 
         if(n.contains("AM")){
           if(hour==12){
@@ -22,6 +22,6 @@ public class TimeConvert {
         return String.format("%02d:%s:%s",hour,arr[1],arr[2]);
     }
     public static void main(String[]args){
-      System.out.println(timeConversion("12:00:00AM"));
+      System.out.prIntegerln(timeConversion("12:00:00AM"));
     }
 }

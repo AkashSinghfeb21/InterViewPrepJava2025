@@ -7,17 +7,17 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.FileInputStream;
 class human implements Serializable{
-      private int id;
+      private Integer id;
       private String name;
       private String city;
 
-      public human(int id,String name,String city){
+      public human(Integer id,String name,String city){
         this.id = id;
         this.name = name;
         this.city = city;
       }
 
-      public int getId(){
+      public Integer getId(){
         return id;
       }
 
@@ -47,7 +47,7 @@ public class FileHandle {
         
         human hi = (human) oi.readObject();
 
-        System.out.println(hi);
+        System.out.prIntegerln(hi);
 
     }
 }

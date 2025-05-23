@@ -5,23 +5,23 @@
 
 //overloading
 class Mathematics{
-    public int add(int a,int b){
+    public Integer add(Integer a,Integer b){
      return a+b;
     }
 
-    public int add(int a,int b,int c){
+    public Integer add(Integer a,Integer b,Integer c){
         return a+b+c;
     }
     
     public void ola(){
-        System.out.println("Heloo Sir");
+        System.out.prIntegerln("Heloo Sir");
     }
 }
 
 class B extends Mathematics{
     @Override
     public void ola(){
-        System.out.println("hello from b");
+        System.out.prIntegerln("hello from b");
     }
 }
 
@@ -29,9 +29,9 @@ public class Polymorphismx {
     public static void main(String[]args){
         Mathematics obj = new Mathematics();
 
-        System.out.println(obj.add(1, 2));
+        System.out.prIntegerln(obj.add(1, 2));
 
-        System.out.println(obj.add(1, 2,3));
+        System.out.prIntegerln(obj.add(1, 2,3));
 
         B obj2 = new B();
 

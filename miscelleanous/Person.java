@@ -1,12 +1,12 @@
 public class Person {
     public void hello(){
-        System.out.println("hello");
+        System.out.prIntegerln("hello");
     }
     protected void yellow(){
-        System.out.println("sama");
+        System.out.prIntegerln("sama");
     }
 
     private void chicken(){
-        System.out.println("bo");
+        System.out.prIntegerln("bo");
     }
 }

@@ -1,20 +1,20 @@
 import java.util.*;
 public class Finding3EvenDigits {
-    public static int[] findEven(int[]digits){
-        Set<Integer> result = new TreeSet<>();
+    public static Integer[] findEven(Integer[]digits){
+        Set<Integereger> result = new TreeSet<>();
 
-        int n = digits.length;
+        Integer n = digits.length;
 
-        for (int i = 0; i < n; i++) {
+        for (Integer i = 0; i < n; i++) {
             if (digits[i] == 0) continue;  // No leading zero
 
-            for (int j = 0; j < n; j++) {
+            for (Integer j = 0; j < n; j++) {
                 if (j == i) continue;
 
-                for (int k = 0; k < n; k++) {
+                for (Integer k = 0; k < n; k++) {
                     if (k == i || k == j) continue;
 
-                    int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                    Integer num = digits[i] * 100 + digits[j] * 10 + digits[k];
                     if (num % 2 == 0) {  // Must be even
                         result.add(num); // Set avoids duplicates
                     }
@@ -22,11 +22,11 @@ public class Finding3EvenDigits {
             }
         }
 
-        // Convert to int[]
-        return result.stream().mapToInt(Integer::intValue).toArray();
+        // Convert to Integer[]
+        return result.stream().mapToInteger(Integereger::IntegerValue).toArray();
     }
     public static void main(String[]args){
-        int arr[]={2,1,3,0};
-        System.out.println(Arrays.toString(findEven(arr)));
+        Integer arr[]={2,1,3,0};
+        System.out.prIntegerln(Arrays.toString(findEven(arr)));
     }
 }

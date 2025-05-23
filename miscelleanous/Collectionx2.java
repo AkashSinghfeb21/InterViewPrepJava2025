@@ -2,17 +2,17 @@ import java.util.Objects;
 import java.util.HashSet;
 
 class personxoxo{
-   private int id;
+   private Integer id;
    private String name;
    private String city;
 
-   public personxoxo(int id,String name,String city){
+   public personxoxo(Integer id,String name,String city){
    this.id = id;
    this.name = name;
    this.city = city;
    }
 
-   public int getId(){
+   public Integer getId(){
     return id;
    }
 
@@ -32,7 +32,7 @@ class personxoxo{
    }
 
    @Override
-   public int hashCode(){
+   public Integer hashCode(){
     return Objects.hash(id);
    }
 
@@ -52,6 +52,6 @@ public class Collectionx2 {
         h.add(p);
         h.add(p2);
 
-        System.out.println(h);
+        System.out.prIntegerln(h);
     }
 }
